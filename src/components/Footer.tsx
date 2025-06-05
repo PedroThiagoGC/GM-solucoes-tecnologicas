@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
             <h2 className="text-2xl font-bold mb-6">
-              GM <span className="text-gm-green">Soluções</span> Tecnológicas
+              GM <span className="text-gm-green">Tech</span> Solutions
             </h2>
             <p className="text-gray-400 mb-6">
               Transformando ideias em soluções digitais para otimizar e digitalizar o seu negócio.
