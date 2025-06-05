@@ -1,4 +1,4 @@
-import barberShop from './barbershop.png';
+import barberShop from './barberShop.png';
 import saas from './saas.png';
 import erp from './erp.png';
 
