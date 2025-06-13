@@ -23,13 +23,14 @@ const Portfolio = () => {
       title: "Desentupidora e Limpa Fossa",
       description: "Landing page para serviços de desentupimento com sistema de orçamentos rápidos.",
       category: "landing-page",
-      image: "",
+      image: "fortalimp",
+      url: "https://fortalimp.vercel.app/",
       tags: ["Responsivo", "Formulário de Contato", "Catálogo de Serviços"]
     },
     {
       id: 3,
-      title: "Sistema de Gestão para Clínica",
-      description: "Transformação de planilhas Excel em um sistema completo de agendamentos e prontuários.",
+      title: "Ecommerce",
+      description: "Oferecemos uma plataforma completa para vendas online, com navegação simples, design moderno e integração com meios de pagamento.",
       category: "system",
       image: "erp",
       tags: ["Automação", "Migração de Dados", "Dashboard"]

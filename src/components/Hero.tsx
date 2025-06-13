@@ -23,7 +23,7 @@ const Hero = () => {
             <Button className="bg-gm-green hover:bg-gm-green/90 px-8 py-6 text-lg">
               Conheça nossos serviços
             </Button>
-            <Button variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-6 text-lg">
+            <Button className="bg-gm-green hover:bg-gm-green/90 px-8 py-6 text-lg">
               Ver portfólio
             </Button>
           </div>

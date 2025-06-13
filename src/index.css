@@ -118,3 +118,24 @@
 .card-hover {
   @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
 }
+
+.process {
+  background: linear-gradient(135deg, #0d1b2a, #00b894);
+
+  .section-subtitle {
+    color: rgb(219, 219, 217);
+  }
+
+  .grid {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .card {
+    .grid {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

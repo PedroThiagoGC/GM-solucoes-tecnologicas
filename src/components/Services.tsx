@@ -27,8 +27,8 @@ const Services = () => {
       ),
     },
     {
-      title: "Transformação Digital",
-      description: "Convertemos processos manuais baseados em papel ou Excel para sistemas digitais dinâmicos e eficientes.",
+      title: "Design Digital",
+      description: "Criamos identidades visuais, layouts modernos e designs criativos que fortalecem a presença da sua marca no ambiente digital.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gm-blue">
           <path d="M16 3h5v5" />

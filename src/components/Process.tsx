@@ -31,17 +31,18 @@ const Process = () => {
   ];
 
   return (
-    <section id="processo" className="section-container bg-gm-dark text-white relative overflow-hidden">
+    <section id="processo" className="process text-white pt-32 pb-20 overflow-hidden">
       {/* Background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 -right-20 w-96 h-96 bg-gm-blue/20 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-gm-green/20 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/4 w-48 h-48 bg-gm-blue/10 rounded-full blur-xl"></div>
       </div>
       
       <div className="relative">
         <h2 className="section-title text-white">Como Trabalhamos</h2>
-        <p className="section-subtitle text-gray-300">
-          Transformamos planilhas e processos manuais em sistemas digitais eficientes através de um processo estruturado
+        <p className="section-subtitle text-white">
+          Transformamos ideias e necessidades em sites modernos e funcionais, otimizando processos e levando sua presença digital para o próximo nível.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-8 mt-16">
@@ -49,8 +50,8 @@ const Process = () => {
             <div key={index} className="relative">
               <Card className="bg-white/10 backdrop-blur-sm border-white/20 h-full">
                 <CardContent className="p-6 flex flex-col items-center text-center">
-                  <span className="block text-4xl md:text-5xl font-bold text-gm-green mb-4">{step.number}</span>
-                  <h3 className="text-xl font-bold mb-3">{step.title}</h3>
+                  <span className="block text-4xl md:text-5xl font-bold text-amber-200 mb-4">{step.number}</span>
+                  <h3 className="text-xl text-white font-bold mb-3">{step.title}</h3>
                   <p className="text-gray-300">{step.description}</p>
                 </CardContent>
               </Card>
@@ -65,28 +66,10 @@ const Process = () => {
           ))}
         </div>
         
-        <div className="mt-16 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-8">
+        <div className="card mt-16 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-8">
           <h3 className="text-2xl font-bold mb-6 text-center">Do Papel ao Digital</h3>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex items-start">
-              <div className="bg-red-500/20 p-3 rounded-full mr-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-red-400">
-                  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/>
-                  <polyline points="14 2 14 8 20 8"/>
-                </svg>
-              </div>
-              <div>
-                <h4 className="text-xl font-bold mb-2">Antes: Processos Manuais</h4>
-                <ul className="space-y-2 text-gray-300">
-                  <li>• Papéis e documentos físicos</li>
-                  <li>• Planilhas de Excel desconectadas</li>
-                  <li>• Dados duplicados e inconsistentes</li>
-                  <li>• Processos lentos e burocráticos</li>
-                  <li>• Dificuldade em obter relatórios</li>
-                </ul>
-              </div>
-            </div>
             
             <div className="flex items-start">
               <div className="bg-green-500/20 p-3 rounded-full mr-4">
