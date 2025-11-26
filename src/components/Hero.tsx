@@ -20,12 +20,16 @@ const Hero = () => {
             Convertemos processos manuais em sistemas dinâmicos e eficientes, otimizando e digitalizando o seu negócio.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Button className="bg-gm-green hover:bg-gm-green/90 px-8 py-6 text-lg">
-              Conheça nossos serviços
-            </Button>
-            <Button className="bg-gm-green hover:bg-gm-green/90 px-8 py-6 text-lg">
-              Ver portfólio
-            </Button>
+            <a href="#servicos">
+              <Button className="bg-gm-green hover:bg-gm-green/90 px-8 py-6 text-lg">
+                Conheça nossos serviços
+              </Button>
+            </a>
+            <a href="#portfolio">
+              <Button className="bg-gm-green hover:bg-gm-green/90 px-8 py-6 text-lg">
+                Ver portfólio
+              </Button>
+            </a>
           </div>
         </div>
         

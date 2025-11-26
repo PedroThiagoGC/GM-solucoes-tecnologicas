@@ -1,9 +1,8 @@
 
-import { useState } from 'react';
-import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { useState } from 'react';
 import * as fotos from '../assets'; // Assuming you have an index file exporting all images
-import { url } from 'inspector';
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState('all');
