@@ -23,7 +23,7 @@ const Portfolio = () => {
       description: "Landing page para serviços de desentupimento com sistema de orçamentos rápidos.",
       category: "landing-page",
       image: "fortalimp",
-      url: "https://fortalimp.vercel.app/",
+      url: "https://www.fortalimp.com/",
       tags: ["Responsivo", "Formulário de Contato", "Catálogo de Serviços"]
     },
     {

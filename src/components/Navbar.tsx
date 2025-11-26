@@ -1,6 +1,7 @@
 
-import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
+import { useEffect, useState } from 'react';
+import { logo } from '../assets';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,6 +23,7 @@ const Navbar = () => {
     }`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
+          <img src={logo} alt="GM Soluções Tecnológicas" className="h-12 w-auto mr-2" />
           <h1 className={`font-bold text-2xl ${isScrolled ? 'text-gm-blue' : 'text-white'}`}>
             GM <span className="text-gm-green">Soluções</span> Tecnológicas
           </h1>

@@ -1,11 +1,11 @@
 import barberShop from './barberShop.png';
-import saas from './saas.png';
 import erp from './erp.png';
 import fortalimp from './fortalimp.png';
+import logo from './logo.png';
+import saas from './saas.png';
 
-export { 
-    barberShop,
-    saas,
-    erp,
+export {
+    barberShop, erp,
     fortalimp,
+    logo, saas
 };
