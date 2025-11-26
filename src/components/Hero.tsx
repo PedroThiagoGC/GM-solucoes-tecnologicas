@@ -5,14 +5,14 @@ const Hero = () => {
   return (
     <section id="inicio" className="relative bg-gm-dark text-white pt-32 pb-20 overflow-hidden">
       {/* Background elements */}
-      <div className="absolute inset-0 overflow-hidden">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 -right-20 w-96 h-96 bg-gm-blue/20 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-gm-green/20 rounded-full blur-3xl"></div>
         <div className="absolute top-1/2 left-1/4 w-48 h-48 bg-gm-blue/10 rounded-full blur-xl"></div>
       </div>
       
-      <div className="container relative mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row md:items-center md:justify-between">
-        <div className="md:w-1/2 md:pr-12 mb-10 md:mb-0">
+      <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row md:items-center md:justify-between">
+        <div className="md:w-1/2 md:pr-12 mb-10 md:mb-0 relative z-20">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             Transformando <span className="text-gm-blue">ideias</span> em <span className="text-gm-green">soluções</span> digitais
           </h1>
