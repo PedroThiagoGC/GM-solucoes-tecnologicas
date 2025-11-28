@@ -31,11 +31,11 @@ const Process = () => {
   ];
 
   return (
-    <section id="processo" className="process text-white pt-32 pb-20 overflow-hidden">
+    <section id="process" className="process text-white pt-32 pb-20 overflow-hidden">
       {/* Background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 -right-20 w-96 h-96 bg-gm-blue/20 rounded-full blur-3xl"></div>
-        <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-gm-green/20 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-32 -left-32 w-96 h-96 bg-gm-green/20 rounded-full blur-3xl"></div>
         <div className="absolute top-1/2 left-1/4 w-48 h-48 bg-gm-blue/10 rounded-full blur-xl"></div>
       </div>
       
@@ -45,7 +45,7 @@ const Process = () => {
           Transformamos ideias e necessidades em sites modernos e funcionais, otimizando processos e levando sua presença digital para o próximo nível.
         </p>
         
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-8 mt-16">
+        <div className="card-grid grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-8 mt-16">
           {steps.map((step, index) => (
             <div key={index} className="relative">
               <Card className="bg-white/10 backdrop-blur-sm border-white/20 h-full">
@@ -72,17 +72,8 @@ const Process = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             
             <div className="flex items-start">
-              <div className="bg-green-500/20 p-3 rounded-full mr-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-green-400">
-                  <rect width="18" height="18" x="3" y="3" rx="2" ry="2"/>
-                  <line x1="3" x2="21" y1="9" y2="9"/>
-                  <line x1="3" x2="21" y1="15" y2="15"/>
-                  <line x1="9" x2="9" y1="9" y2="21"/>
-                  <line x1="15" x2="15" y1="9" y2="21"/>
-                </svg>
-              </div>
               <div>
-                <h4 className="text-xl font-bold mb-2">Depois: Sistemas Digitais</h4>
+                <h6 className="text-xl font-bold mb-2">Nossos sistemas possuem:</h6>
                 <ul className="space-y-2 text-gray-300">
                   <li>• Interface intuitiva e personalizada</li>
                   <li>• Dados centralizados e integrados</li>

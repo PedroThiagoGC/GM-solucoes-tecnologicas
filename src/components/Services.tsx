@@ -92,7 +92,7 @@ const Services = () => {
   };
 
   return (
-    <section id="servicos" className="section-container bg-gray-50">
+    <section id="servicos" className="services section-container bg-gray-50">
       <h2 className="section-title">Nossos Serviços</h2>
       <p className="section-subtitle">
         Oferecemos soluções tecnológicas completas para transformar e otimizar o seu negócio
